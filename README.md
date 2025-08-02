@@ -20,9 +20,26 @@
 
 ## 安裝與執行
 
-1. 安裝套件：
-   ```bash
-   pip install -r requirements.txt
+   1. 建議使用虛擬環境：
+
+        python -m venv .venv
+
+        啟用虛擬環境：
+
+        Windows：
+
+        .venv\Scripts\activate
+        
+        macOS / Linux：
+
+        source .venv/bin/activate
+
+   2. 安裝依賴套件 
+        
+        pip install -r requirements.txt
+
+   3. 執行爬蟲主程式
+        python main.py
 
 ## 備註
 
